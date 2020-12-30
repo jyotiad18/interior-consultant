@@ -14,82 +14,55 @@
       rel="shortcut icon"
       type="image/x-icon"
       href="https://devchallenges.io/"
-    />
+    />   
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&amp;family=Lora:wght@400;700&amp;family=Montserrat:wght@300;500;600&amp;display=swap"
+      rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet" />
+    <title>Interior - Consultant</title>
+  </head>  
+  <body>   
+      <div class="header">
+        <h4>THIS INTERIOR</h4>  
+        <div class="header__navs">
+          <a href="#">Home</a>
+          <a href="#">Collection</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div> 
+       <i class="material-icons md-24 header__dehaze">dehaze</i> 
+      </div>   
+      <div class="main">
+        <div class="main__left">
+            <h1>Modern interior</h1>
+            <p>A full-Service residential & commercial interior design and staging company offering professional organizing &
+            eco-services.</p>
+            <div class="main__left__readMore">
+              <h2>Read More</h2>
+              <i class="material-icons md-24">arrow_right_alt</i>
+            </div>
+        </div>
+        <div class="main__right">
+          <img src="images/photo1.png" alt="">
+          <div class="main__right__info"> 
+              <div class="main__designer">
+                <div class="main__disgner__imgage">
+                    <img src="/images/photo2.png" alt="Aliza Webber" />
+                </div>  
+                <div class="main__disgner__detail">
+                  <h4>Aliza Webber</h4>
+                  <p>Interior designer</p>
+                </div>
+              </div>
+               <div class="main__right__footer">
+                  <h4>Designed in 2020 by Aliza Webber</h4>
+               </div> 
+          </div>
+        </div>
+      </div>  
+      <div class="footer"> Jyoti ADHIKARI @ DevChallenges.io </div>     
+      <script src="./js/app.js"></script>
   </body>
 </html>
